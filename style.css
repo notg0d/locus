@@ -585,8 +585,15 @@ nav {
     color: var(--pixel-red);
     border-color: var(--pixel-red);
 }
-
-
+/*-- Sponsors section ---*/
+#sponsors .sponsor-card img{
+    width: 160px;
+}
+#sponsors .stats-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 20px));
+    justify-content: center;
+}
 /* --- Stats Section --- */
 .stats-grid {
     display: grid;
