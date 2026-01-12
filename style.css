@@ -589,6 +589,7 @@ nav {
 #sponsors .sponsor-card img{
     width: 160px;
 }
+
 #sponsors .stats-grid{
     display: flex;
     flex-wrap: wrap;
@@ -922,7 +923,12 @@ footer {
     .game-section {
         max-width: 380px;
     }
-
+    #sponsors{
+        max-width:600px;
+    }
+    #sponsors img{
+        width:100px
+    }
     .nav-menu-main {
         display: block;
     }
@@ -1022,7 +1028,11 @@ footer {
         padding: 8px 15px;
     }
 }
-
+@media (max-width:420px){
+    #sponsors img{
+        width:1%
+    }
+}
 @media (max-width:400px) {
     .stat-box {
         padding: 10px;
