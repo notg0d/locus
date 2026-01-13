@@ -805,7 +805,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // --- Countdown Timer ---
-    const countDownDate = new Date("Jan 21, 2026 00:00:00").getTime();
+    const countDownDate = new Date("Jan 19, 2026 00:00:00").getTime();
     const countdownFunction = setInterval(function () {
         const now = new Date().getTime();
         const distance = countDownDate - now;
